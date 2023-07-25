@@ -110,7 +110,6 @@ export const Sidebar = () => {
           </Link>
         ))}
       </List>
-
       <Typography
         sx={{
           cursor: 'default',

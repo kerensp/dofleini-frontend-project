@@ -1,20 +1,18 @@
+import { Box, Paper } from '@mui/material';
+import Dashboard from '../components/dashboard/Dashboard';
+
 export const Usuarios = () => {
-    return (
-      <div
-        style={{
-          width: '1600px',
-          height: '975px',
-          boxShadow: '0px 2px 3px #142F471F',
-          margin: '21px 18px 20px 303px',
-          overflow: 'auto',
-          backgroundColor: '#FFFFFF',
-          fontSize: '70px',
-          textAlign: 'center',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-        }}>
-        Usuarios
-      </div>
-    );
-  };
+  return (
+    <Box
+      component={Paper}
+      sx={{
+        m: '21px 18px 20px 303px',
+        boxShadow: '0px 2px 3px #142F471F',
+        overflow: 'hidden',
+        width: '1600',
+        height: '975',
+      }}>
+      <Dashboard />
+    </Box>
+  );
+};

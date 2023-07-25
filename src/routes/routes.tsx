@@ -1,11 +1,11 @@
-import { Route, Navigate, Routes } from 'react-router-dom';
-import { Usuarios } from '../pages/Usuarios';
-import { Auditoría } from '../pages/Auditoría';
-import { Expedientes } from '../pages/Expedientes';
-import { Procesos } from '../pages/Procesos';
-import { Roles } from '../pages/Roles';
-import { Trabajadores } from '../pages/Trabajadores';
-import { Trazas } from '../pages/Trazas';
+import { Routes, Route, Navigate } from "react-router-dom";
+import { Auditoría } from "../pages/Auditoría";
+import { Expedientes } from "../pages/Expedientes";
+import { Procesos } from "../pages/Procesos";
+import { Roles } from "../pages/Roles";
+import { Trabajadores } from "../pages/Trabajadores";
+import { Trazas } from "../pages/Trazas";
+import { Usuarios } from "../pages/Usuarios";
 
 export const AppRoutes = () => {
   return (
