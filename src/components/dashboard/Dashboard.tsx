@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unsafe-assignment */
-/* eslint-disable @typescript-eslint/no-unsafe-member-access */
 import * as React from 'react';
 import { GridCellParams, GridColDef, GridRowsProp, esES } from '@mui/x-data-grid';
 import { Box, Tab, Tabs, Typography } from '@mui/material';

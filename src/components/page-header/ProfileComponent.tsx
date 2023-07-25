@@ -1,9 +1,9 @@
 import * as React from 'react';
 import { styled } from '@mui/material/styles';
 import { MenuProps, Menu, MenuItem, Divider, Box, Avatar, IconButton, Typography } from '@mui/material';
-import ProfileIcon from '../../assets/perfil.svg';
-import ConfigIcon from '../../assets/configuración.svg';
-import CloseIcon from '../../assets/cerrar-sesión.svg';
+import { ReactComponent as ProfileIcon } from '../../assets/perfil.svg';
+import { ReactComponent as ConfigIcon } from '../../assets/configuración.svg';
+import { ReactComponent as CloseIcon } from '../../assets/cerrar-sesión.svg';
 import avatar from '../../assets/avatar.jpg';
 
 const StyledMenu = styled((props: MenuProps) => (
@@ -83,16 +83,16 @@ export default function ProfileComponent() {
         </MenuItem>
         <Divider />
         <MenuItem onClick={handleClose} sx={menuItemStyles}>
-          <ProfileIcon />
+          <ProfileIcon style={{ marginRight: '12.39px' }} />
           <StyledTypography>Perfil</StyledTypography>
         </MenuItem>
         <MenuItem onClick={handleClose} sx={menuItemStyles}>
-          <ConfigIcon />
+          <ConfigIcon style={{ marginRight: '10.96px' }} />
           <StyledTypography>Configuración</StyledTypography>
         </MenuItem>
         <Divider sx={{ my: 0.5 }} />
         <MenuItem sx={menuItemStyles} onClick={handleClose}>
-          <CloseIcon />
+          <CloseIcon style={{ marginRight: '12.4px' }} />
           <StyledTypography>Cerrar Sesión</StyledTypography>
         </MenuItem>
       </StyledMenu>

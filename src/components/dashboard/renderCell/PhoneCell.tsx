@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unsafe-member-access */
 import { Typography } from '@mui/material';
 import { GridRenderCellParams } from '@mui/x-data-grid';
 

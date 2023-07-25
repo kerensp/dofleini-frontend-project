@@ -1,7 +1,7 @@
 import { AppBar, Toolbar, IconButton, Box, Typography } from '@mui/material';
 import { BreadcrumbsComponent } from './BreadcrumbsComponent';
 import NotificationsIcon from '@mui/icons-material/Notifications';
-import SettingIcon from '../../assets/ajustes.svg';
+import { ReactComponent as SettingIcon } from '../../assets/ajustes.svg';
 import ProfileComponent from './ProfileComponent';
 
 export const PageHeader = () => {

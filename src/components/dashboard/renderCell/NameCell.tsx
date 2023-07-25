@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unsafe-argument */
 import { Avatar, Typography } from '@mui/material';
 import { GridCellParams } from '@mui/x-data-grid';
 

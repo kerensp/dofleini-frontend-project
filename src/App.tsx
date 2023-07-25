@@ -1,10 +1,9 @@
-import { CssBaseline } from "@mui/material";
-import { BrowserRouter } from "react-router-dom";
-import { ThemeProvider } from "styled-components";
-import { PageHeader } from "./components/page-header/PageHeader";
-import { AppRoutes } from "./routes/routes";
-import { theme } from "./themes/theme";
-import { Sidebar } from "./components/sidebar/Sidebar";
+import { CssBaseline, ThemeProvider } from '@mui/material';
+import { BrowserRouter } from 'react-router-dom';
+import { PageHeader } from './components/page-header/PageHeader';
+import { AppRoutes } from './routes/routes';
+import { Sidebar } from './components/sidebar/Sidebar';
+import { theme } from './themes';
 
 export const App = () => {
   return (

@@ -1,11 +1,11 @@
 import { Drawer, List, styled, Button, Typography, Box } from '@mui/material';
-import UserIcon from '../../assets/usuarios.svg';
-import RolIcon from '../../assets/usuarios.svg';
-import TraceIcon from '../../assets/usuarios.svg';
-import AuditIcon from '../../assets/usuarios.svg';
-import RecordIcon from '../../assets/usuarios.svg';
-import WorkerIcon from '../../assets/usuarios.svg';
-import ProcessIcon from '../../assets/usuarios.svg';
+import { ReactComponent as UserIcon } from '../../assets/usuarios.svg';
+import { ReactComponent as RolIcon } from '../../assets/roles.svg';
+import { ReactComponent as TraceIcon } from '../../assets/trazas.svg';
+import { ReactComponent as AuditIcon } from '../../assets/auditoría.svg';
+import { ReactComponent as RecordIcon } from '../../assets/expedientes.svg';
+import { ReactComponent as WorkerIcon } from '../../assets/trabajadores.svg';
+import { ReactComponent as ProcessIcon } from '../../assets/procesos.svg';
 import logo from '../../assets/logo.svg';
 import { Link } from 'react-router-dom';
 
