@@ -1,4 +1,4 @@
-# Front-end project with react, mui and typescript for Dofleini test
+# Front-end project with react, mui and typescript for Dofleini S.R.L test
 
 ## Table of contents
 
@@ -40,7 +40,7 @@ The idea behind the "components" folder is to have a centralized place to store 
 
 
 ### Screenshot
-
+![Captura de pantalla de mi aplicación](./src/assets//Screenshot.png)
 
 ## My process
 
