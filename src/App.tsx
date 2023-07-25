@@ -1,10 +1,12 @@
+import { ThemeProvider } from '@emotion/react';
+import { Button, CssBaseline } from '@mui/material';
+import { theme } from './themes/theme';
 
-
-function App() {
+export const App = () => {
   return (
-    <>
-      App
-    </>
-  )
-}
-export default App
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <Button variant='contained' color='secondary'>App</Button>
+    </ThemeProvider>
+  );
+};
