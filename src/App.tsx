@@ -1,12 +1,18 @@
 import { ThemeProvider } from '@emotion/react';
-import { Button, CssBaseline } from '@mui/material';
+import { CssBaseline } from '@mui/material';
 import { theme } from './themes/theme';
+import { Sidebar } from './components/sidebar/Sidebar';
+import { BrowserRouter } from 'react-router-dom';
+import { AppRoutes } from './routes/routes';
 
 export const App = () => {
   return (
     <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <Button variant='contained' color='secondary'>App</Button>
+      <BrowserRouter>
+        <CssBaseline />
+        <Sidebar />
+        <AppRoutes />
+      </BrowserRouter>
     </ThemeProvider>
   );
 };
